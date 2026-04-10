@@ -10,7 +10,7 @@ $mainFontSize: 40px;
 $mainColor: #eee;
 
 // Vertical spacing between blocks of text
-$blockMargin: 20px;
+$blockMargin: 10px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
@@ -18,7 +18,7 @@ $headingFont: 'League Gothic', Impact, sans-serif;
 $headingColor: #eee;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingTextShadow: none;
 $headingFontWeight: normal;
 

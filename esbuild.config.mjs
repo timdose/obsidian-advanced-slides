@@ -81,6 +81,12 @@ function build() {
             }),
             copy({
                 assets: {
+                    from: ['src/scss/theme/source/fonts/montserrat/*'],
+                    to: ['./dist/theme/fonts/montserrat/*'],
+                }
+            }),
+            copy({
+                assets: {
                     from: ['src/scss/theme/source/fonts/lato/*'],
                     to: ['./dist/theme/fonts/lato/*'],
                 }

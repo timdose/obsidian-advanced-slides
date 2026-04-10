@@ -1,5 +1,9 @@
 @import '_split.scss';
 @import '_align.scss';
+
+.reveal .slides {
+	text-align: left;
+}
 @import '_animation.scss';
 @import '_callouts.scss';
 @import '_stretch.scss';
