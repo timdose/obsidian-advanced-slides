@@ -1,5 +1,6 @@
 # vscode specific
 .vscode 
+.DS_Store
 
 # node specific
 node_modules
