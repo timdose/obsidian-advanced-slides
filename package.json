@@ -10,7 +10,8 @@
 		"coverage": "jest --coverage",
 		"lint": "eslint --fix --ext .ts .",
 		"docs": "cd docs && hugo serve",
-		"all": "node esbuild.config.mjs & cd docs && hugo serve"
+		"all": "node esbuild.config.mjs & cd docs && hugo serve",
+		"deploy": "rsync -a --delete test-vault/.obsidian/plugins/obsidian-advanced-slides/ ~/obsidian/Art/.obsidian/plugins/obsidian-advanced-slides/"
 	},
 	"repository": "git@github.com:MSzturc/obsidian-advanced-slides.git",
 	"author": "Matthäus Szturc",
