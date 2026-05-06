@@ -47,6 +47,7 @@
 .reveal h5,
 .reveal h6 {
 	margin: var(--r-heading-margin);
+	margin-top: .4em;
 	color: var(--r-heading-color);
 
 	font-family: var(--r-heading-font);
@@ -153,6 +154,10 @@
 .reveal ol ul {
 	display: block;
 	margin-left: 40px;
+}
+
+.reveal li {
+	margin-bottom: .4em;
 }
 
 .reveal dt {
